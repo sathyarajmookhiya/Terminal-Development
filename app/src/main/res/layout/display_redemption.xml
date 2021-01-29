@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0920A"
+    android:orientation="vertical"
+    >
+ 
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/anyRedemption_TxtVw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:background="#F0920A"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+ 
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00bcd5</color>
+    <color name="colorPrimaryDark">#0c0a82</color>
+    <color name="colorAccent">#077E8E</color>
+
+
+    <color name="pin_element_normal">#00bcd5</color>
+    <color name="pin_element_pressed">#00bcc8</color>
+    <color name="admin_interface_background">#fd9728</color>
+    <color name="take_payment_background">#1a9487</color>
+</resources>

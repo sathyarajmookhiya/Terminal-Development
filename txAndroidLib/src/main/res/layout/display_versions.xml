@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"
+        android:text="Terminal Lib: " />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/terminalLibVersion_TxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:gravity="center_vertical"
+        android:text="17sp"
+        android:textColor="@color/Tx_Prim_Light_Blue" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"
+        android:text="Android Lib: " />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/androidLibVersion_TxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView3"
+        android:gravity="center_vertical"
+        android:text="17sp"
+        android:textColor="@color/Tx_Prim_Light_Blue" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"
+        android:text="App version: " />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/appVersion_TxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView2"
+        android:gravity="center_vertical"
+        android:textColor="@color/Tx_Prim_Light_Blue" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appVersion_TxtVw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/Tx_Prim_Light_Blue"
+        android:text="Developed by TransaXiom Ltd." />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Tx_Prim_Light_Blue"
+        android:text="www.transaxiom.co.uk" />
+
+</RelativeLayout>

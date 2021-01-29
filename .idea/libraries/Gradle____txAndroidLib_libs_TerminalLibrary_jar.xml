@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./txAndroidLib/libs/TerminalLibrary.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/txAndroidLib/libs/TerminalLibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

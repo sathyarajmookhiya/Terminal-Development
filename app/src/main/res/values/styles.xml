@@ -1,0 +1,55 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    <style name="SectionLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SectionContainer" parent="SectionLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="buttonback">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+    <style name="buttonback_red" parent="buttonback">
+        <item name="android:background">@drawable/round_red_circle</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="buttonback_green" parent="buttonback">
+        <item name="android:background">@drawable/round_green_circle</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+</resources>

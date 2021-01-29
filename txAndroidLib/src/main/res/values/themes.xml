@@ -1,0 +1,6 @@
+<resources>
+    <style name="TxAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+</resources>

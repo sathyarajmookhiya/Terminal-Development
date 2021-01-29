@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="grey">#FFEAEAEA</color>
+
+	<color name="colorPrimary">#00bcd5</color>
+	<color name="colorPrimaryDark">#0c0a82</color>
+	<color name="colorAccent">#077E8E</color>
+
+    <color name="Tx_Prim_Blue">#FF145199</color>
+    <color name="Tx_Prim_Blue_Grey">#FF284A73</color>
+	<color name="Tx_Prim_Lighter_Blue">#FF6B97CC</color>
+	<color name="Tx_Prim_Light_Blue">#FF4784CC</color>
+	<color name="Tx_Prim_Dark_Blue">#FF073163</color>
+	
+	<color name="Tx_SecA_Dark_Blue">#FF2B1DA2</color>
+    <color name="Tx_SecA_Light_Purple">#FF7D73D1</color>	
+	<color name="Tx_SecA_Purple">#FF5E50D1</color>
+	<color name="Tx_SecA_Deep_Purple">#FF140A6A</color>
+	<color name="Tx_SecA_Darker_Blue">#FF140A6A</color>
+		
+	<color name="Tx_SecB_Lighter_Yellow">#FFF4D975</color>
+	<color name="Tx_SecB_Light_Yellow">#FFF4CE47</color>
+	<color name="Tx_SecB_Yellow">#FFEAB90D</color>
+		
+	<color name="Tx_Comp_Lighter_Orange">#FFF4C375</color>
+	<color name="Tx_Comp_Light_Orange">#FFF4B147</color>
+	<color name="Tx_Comp_Orange">#FFEA940D</color>
+	
+	<color name="transparent_grey">#CCE3E3E3</color>
+	<color name="transparent">#00000000</color>
+
+</resources>

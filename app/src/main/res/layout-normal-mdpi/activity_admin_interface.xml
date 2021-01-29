@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:keyboard="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.AdminInterfaceActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            keyboard:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/remmition"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_height="400dp">
+
+            <TextView
+                android:id="@+id/turnover_TxtVw"
+                android:layout_width="wrap_content"
+                android:text="Current Turnover : £000.00"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:layout_height="500dp">
+
+
+                <TextView
+                    android:id="@+id/maxTurnover_TxtVw"
+                    android:layout_width="match_parent"
+                    android:text="Max.Turnover : £0.00"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/autoRedeemBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@color/white"
+                    android:layout_below="@+id/turnover_TxtVw"
+                    android:textSize="15dp"
+                    android:text="Auto Redeem" />
+                <TextView
+                    android:id="@+id/myredimtion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/white"
+                    android:text="My redemptions:" />
+                <ListView
+                    android:id="@+id/redemptions_ExpLst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/redeemBtn"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp" >
+
+                </ListView>
+
+                <TextView
+                    android:id="@+id/myRedemptions_TxtVw"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:drawableLeft="@drawable/info"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="60dp"
+                    android:textColor="@color/white"
+                    android:text="No FUNDS REDEMMED YET"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/redeemBtn"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Redeem funds"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:background="@drawable/fundbutton"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/seeTransactionsBtn"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="end"
+                    android:text="Transactions"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/fundbutton"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Terminal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="scheme_name">Scheme name</string>
+    <string name="title_activity_payment">Payment Activity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_admin_interface">Admin Interface</string>
+    <string name="title_activity_activation">Terminal Activation</string>
+    <string name="title_activity_transactions">History of Transactions</string>
+
+</resources>

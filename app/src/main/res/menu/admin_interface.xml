@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.transaxiom.android.universal_terminal_app.AdminInterfaceActivity" >
+
+    <item
+        android:id="@+id/resetRedemptions"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Erase redemptions"/>
+    
+    <item
+        android:id="@+id/resetTerminal"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Reset Terminal"/>
+    
+    <item 
+        android:id="@+id/merchantInfo"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Merchant Info" />
+    
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="About"/>
+    
+
+</menu>

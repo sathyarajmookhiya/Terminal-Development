@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.transaxiom.android.universal_terminal_app.MainMenuActivity" >
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/skins"
+        android:orderInCategory="101"
+        android:title="Themes"
+        android:visible="false"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/revert"
+        android:orderInCategory="102"
+        android:title="Revert Layout"
+        app:showAsAction="never"/>
+
+</menu>

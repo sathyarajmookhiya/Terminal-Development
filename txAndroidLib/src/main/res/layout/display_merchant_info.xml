@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <uk.co.transaxiom.android.txandroidlib.design.ItalicTextView
+        android:id="@+id/merchantUIDTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/merchantIdTxtVw"
+        android:text="0150-AB47-DF45-74AD"
+        android:textColor="@color/Tx_Prim_Light_Blue"
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/merchantIdTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Merchant Id: "
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/usernameTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/merchantUIDTxtVw"
+        android:layout_marginTop="5dp"
+        android:text="Username: "
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/merchantUsernameTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/usernameTxtVw"
+        android:layout_alignBottom="@+id/usernameTxtVw"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/usernameTxtVw"
+        android:textColor="@color/Tx_Prim_Light_Blue"
+        android:text="usernameYo"
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/terminalNameTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/merchantUsernameTxtVw"
+        android:layout_marginTop="10dp"
+        android:text="Terminal name: "
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/terminalTagTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/terminalNameTxtVw"
+        android:layout_alignBottom="@+id/terminalNameTxtVw"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/Tx_Prim_Light_Blue"
+        android:layout_toRightOf="@+id/terminalNameTxtVw"
+        android:text="458960225 14-25-98"
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.LightTextView
+        android:id="@+id/terminalUIDTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/terminalIdTxtVw"
+        android:layout_alignBottom="@+id/terminalIdTxtVw"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/terminalIdTxtVw"
+        android:textColor="@color/Tx_Prim_Light_Blue"
+        android:text="jamesfranco@longemailexample.co.uk"
+        android:textSize="17sp" />
+
+    <uk.co.transaxiom.android.txandroidlib.design.BoldTextView
+        android:id="@+id/terminalIdTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/terminalTagTxtVw"
+        android:layout_marginTop="10dp"
+        android:text="Terminal Id: "
+        android:textSize="17sp" />
+
+</RelativeLayout>

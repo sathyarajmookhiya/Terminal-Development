@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    
+    <dimen name="normal_calculator_button_width">60dp</dimen>
+	<dimen name="normal_calculator_button_height">43dp</dimen>
+	<dimen name="normal_calculator_text_size">18dp</dimen>
+	<dimen name="normal_calculator_margin">7dp</dimen>
+
+	<dimen name="pin_dot_bg_size">25dp</dimen>
+	<dimen name="pin_numpad_bg_width">50dp</dimen>
+
+	<dimen name="small_calculator_button_width">45dp</dimen>
+	<dimen name="small_calculator_button_height">35dp</dimen>
+	<dimen name="small_calculator_text_size">12dp</dimen>
+	<dimen name="small_calculator_margin">7dp</dimen>
+	
+	<dimen name="large_calculator_button_width">85dp</dimen>
+	<dimen name="large_calculator_button_height">55dp</dimen>
+	<dimen name="large_calculator_text_size">25dp</dimen>
+	<dimen name="large_calculator_margin">14dp</dimen>
+    
+</resources>

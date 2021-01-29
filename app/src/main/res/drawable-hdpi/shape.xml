@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true">
+        <layer-list>
+                <item  android:top="1dp">
+                    <shape>
+                        <corners android:radius="4dp" />
+
+                        <solid android:color="@color/Tx_Comp_Orange" />
+                    </shape></item>
+                <item android:bottom="1dp" android:right="1dp">
+                    <shape>
+                        <gradient android:angle="270" android:endColor="@color/Tx_SecB_Light_Yellow" android:startColor="@color/Tx_SecB_Light_Yellow" />
+
+                        <stroke android:width="1dp" android:color="@color/Tx_SecB_Light_Yellow" />
+
+                        <corners android:radius="3dp" />
+
+                        <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+                    </shape></item>
+            </layer-list>
+	</item>
+    
+    
+    <item>
+        <layer-list>
+                <item  android:top="1dp">
+                    <shape>
+                        <corners android:radius="4dp" />
+
+                        <solid android:color="@color/Tx_Prim_Blue" />
+                    </shape></item>
+                <item android:bottom="1dp" android:right="1dp">
+                    <shape>
+                        <gradient android:angle="270" android:endColor="@color/Tx_Prim_Light_Blue" android:startColor="@color/Tx_Prim_Light_Blue" />
+
+                        <stroke android:width="1dp" android:color="@color/Tx_Prim_Light_Blue" />
+
+                        <corners android:radius="3dp" />
+
+                    </shape></item>
+            </layer-list>
+	</item>
+    
+    
+    
+    
+    
+    <!--  
+    
+    <item android:state_pressed="true">
+        <shape >
+            <solid
+                android:color="@color/Tx_SecB_Light_Yellow" />
+            <stroke 
+                android:width="2dp"
+                android:color="@color/Tx_Comp_Orange" />
+            <corners
+                android:radius="10dp" />
+            <padding
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item >
+        <shape >
+            <gradient
+                android:startColor="@color/Tx_Prim_Light_Blue"
+                android:endColor="@color/Tx_Prim_Light_Blue" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/Tx_Prim_Blue_Grey" />
+            <corners
+                android:radius="10dp" />
+            <padding
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"
+                android:bottom="10dp" />
+        </shape>        
+    </item>
+    -->
+</selector>

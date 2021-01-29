@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:keyboard="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.TakePaymentActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            keyboard:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/amount_TxtVw"
+                    android:layout_width="match_parent"
+                    android:text="££££.££"
+                    android:padding="15dp"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:cursorVisible="false"
+                    android:background="@drawable/edittextbackground"
+                    android:layout_height="wrap_content" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimary"
+                    android:columnCount="3"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/calcButton1"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="1"
+
+                        />
+
+                    <Button
+                        android:id="@+id/calcButton2"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/calcButton3"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="3" />
+
+                    <Button
+                        android:id="@+id/calcButton4"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/calcButton5"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/calcButton6"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="6" />
+
+                    <Button
+                        android:id="@+id/calcButton7"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/calcButton8"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/calcButton9"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="9" />
+
+                    <Button
+                        android:id="@+id/calcButtonDel"
+                        style="@style/buttonback_red"
+                        android:layout_columnWeight="1"
+                        android:text="C" />
+                    <Button
+                        android:id="@+id/calcButton0"
+                        style="@style/buttonback"
+                        android:layout_columnWeight="1"
+                        android:text="0" />
+                    <Button
+                        android:id="@+id/takePayment_Btn"
+                        style="@style/buttonback_green"
+                        android:layout_columnWeight="1"
+                        android:text="OK" />
+                </GridLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/receiptAfterSale_Btn"
+                            android:layout_width="178dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text="Last receipt"
+                            android:textColor="@color/white"
+                            android:padding="10dp"
+                            android:background="@drawable/fundbutton"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/adminInterface_Btn"
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="end"
+                            android:text="Admin interface"
+                            android:padding="10dp"
+                            android:textColor="@color/white"
+                            android:background="@drawable/fundbutton"
+                            android:textSize="18dp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/lastRedemption_TxtVw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="italic"
+                        android:textSize="20sp"
+                        android:text="Last redemption at: HH:mm - dd/mm/yyyy" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

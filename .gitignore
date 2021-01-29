@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/txAndroidLib/build/
+/txAndroidLib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
